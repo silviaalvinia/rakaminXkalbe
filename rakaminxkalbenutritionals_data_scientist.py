@@ -253,15 +253,7 @@ df_cluster_mean.sort_values('CustomerID', ascending = False)
 
 """Dari hasil clustering tersebut, diketahui bahwa:
 
-
-
-*   Cluster 0 memiliki paling banyak pelanggan, namun secara jumlah transaksi, quantity, dan total amount hasilnya kedua terendah dari antara cluster lainnya. Hal ini bisa jadi menunjukkan cluster pelanggan yang memperhatikan value deal ketika membeli barang, sehingga dapat dicoba untuk pemberian promo dan bundling produk untuk meningkatkan transaksi, quality dan total amount.
-*   Cluster 1 memiliki cukup banyak pelanggan, dengan transaksi, quantity, dan total amount yang lebih sedikit. Hal ini perlu diteliti lebih lanjut tentang bagaimana karakteristik dari pelanggan2 tersebut supaya bisa lebih banyak memberikan keuntungan pada perusahaan.
-*   Cluster 2 memiliki paling sedikit pelanggan, namun dengan transaksi, quantity, dan total amount yang paling banyak. Kemungkinan besar cluster 2 terdiri dari pelanggan2 loyal dan perlu dipertahankan dengan baik
-*   Cluster 3 memiliki cukup sedikit pelanggan, namun transaksi, quantity, dan total amount yang mencapai kedua tertinggi. Kemungkinan pelanggan sudah memiliki ketertarikan untuk menjadi loyal, namun belum dapat menegaskannya. Perlu dipastikan mereka mendapatkan produk dan layanan terbaik untuk meningkatkan kepercayaan mereka.
-
-
-
-
-
+*   Cluster 0 terdiri dari paling banyak customer, namun transaksi,quantity,dantotalamount yang menengah, begitu pula dengan cluster 3. Kemungkinan customer di cluster ini sudah memiliki ketertarikan untuk bertansaksi, namun mungkin perlu diberikan promosi dengan batas waktu sehingga menciptakan urgensi untuk tidak meninggalkan toko ini.
+*   Cluster 1 terdiri dari 112 customer dengan transaksi,quantity,dantotalamount yang kecil. Kemungkinan customer pada segmen ini masih sering berbelanja di toko lain, sehingga perlu lebih banyak promosi untuk menarik customer di segmen ini.
+*   Cluster 2 yang berwarna hijau terdiri dari customer yang lebih sedikit jumlahnya namun transaksi,quantity,dantotalamount nya paling besar. Kemungkinan segmen ini menunjukkan customer yang loyal untuk berbelanja, sehingga perlu mempertahankan kualitas layanan dan produk untuk menjaga loyalitasnya.
 """
